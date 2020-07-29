@@ -1,0 +1,114 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #eff0f4;
+}
+body header {
+  background-color: #5fc0cd;
+  height: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+body header .header-word-1 {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+body header .header-word-2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.9rem;
+}
+main {
+  margin-bottom: 3.5rem;
+}
+main .main-box-1 {
+  margin-top: 0.8rem;
+  background-color: #fff;
+  display: flex;
+  align-content: center;
+  color: red;
+}
+main .main-box-1 .main-picture-1 {
+  background-image: url("../img/task11-1.png");
+  background-repeat: no-repeat;
+  background-position: 1.75rem;
+  padding: 2.5rem;
+  display: inline-block;
+  background-size: 50%;
+}
+main .main-box-1 input {
+  height: 100%;
+  width: 80%;
+  padding-left: 1rem;
+  border: 0 ;
+  font-size: 1.6rem;
+  font-width: 700;
+  border-left: 0.2rem solid red;
+  outline: none;
+  float: left;
+  margin-top: 1.3rem;
+}
+main .main-box-1 input::-webkit-input-placeholder {
+  color: chartreuse;
+  font-size: 1.6rem;
+}
+main .main-box-2 {
+  margin-top: 0.8rem;
+  background-color: #fff;
+  display: flex;
+  align-content: center;
+  color: red;
+}
+main .main-box-2 .main-picture-2 {
+  background-image: url("../img/task11-2.png");
+  background-repeat: no-repeat;
+  background-position: 1.75rem;
+  padding: 2.5rem;
+  display: inline-block;
+  background-size: 50%;
+}
+main .main-box-2 input {
+  height: 100%;
+  width: 80%;
+  padding-left: 1rem;
+  border: 0 ;
+  font-size: 1.6rem;
+  font-width: 700;
+  border-left: 0.2rem solid red;
+  outline: none;
+  float: left;
+  margin-top: 1.6rem;
+}
+main .main-box-2 input::-webkit-input-placeholder {
+  color: chartreuse;
+  font-size: 1.6rem;
+}
+footer .footer-box-dl {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+footer .footer-box-dl button {
+  width: 100%;
+  line-height: 5rem;
+  background-color: #5fc0cd;
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 800;
+  border: 0;
+}
+footer .footer-wj {
+  float: right;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #5fc0cd;
+  margin-right: 2rem;
+}
+/*# sourceMappingURL=tesk-11.css.map */

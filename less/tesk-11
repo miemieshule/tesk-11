@@ -1,0 +1,146 @@
+html{
+  font-size: 62.5%;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+@backgtound-color1:#5fc0cd;
+@backgtound-color2:#fff;
+
+@color1:#fff;
+@font-size1:1.6rem;
+
+body{
+  background: #eff0f4;
+
+  header{
+    background-color: @backgtound-color1;
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+
+    .header-word-1{
+      color: @color1;
+      font-size: @font-size1;
+      font-weight: 700;
+    }
+
+    .header-word-2{
+      color: @color1;
+      font-weight: 700;
+      font-size: 1.9rem;
+    }
+
+  }
+
+}
+
+main{
+  margin-bottom: 3.5rem;
+
+  .main-box-1{
+    margin-top: 0.8rem;
+    background-color: @backgtound-color2;
+    display: flex;
+    align-content: center;
+    color: red;
+
+    .main-picture-1{
+      background-image: url("../img/task11-1.png");
+      background-repeat: no-repeat;
+      background-position: 1.75rem;
+      padding: 2.5rem;
+      display: inline-block;
+      background-size: 50%;
+    }
+
+    input{
+      height: 100%;
+      width: 80%;
+      padding-left: 1rem;
+      border:  0 ;
+      font-size: @font-size1;
+      font-width: 700;
+      border-left: 0.2rem solid red;
+      outline: none;
+      float: left;
+      margin-top: 1.3rem;
+    }
+
+    input::-webkit-input-placeholder{
+      color: chartreuse;
+      font-size: @font-size1;
+    }
+
+
+  }
+
+  .main-box-2{
+    margin-top: 0.8rem;
+    background-color: @backgtound-color2;
+    display: flex;
+    align-content: center;
+    color: red;
+
+    .main-picture-2{
+      background-image: url("../img/task11-2.png");
+      background-repeat: no-repeat;
+      background-position: 1.75rem;
+      padding: 2.5rem;
+      display: inline-block;
+      background-size: 50%;
+    }
+
+    input{
+      height: 100%;
+      width: 80%;
+      padding-left: 1rem;
+      border:  0 ;
+      font-size: @font-size1;
+      font-width: 700;
+      border-left: 0.2rem solid red;
+      outline: none;
+      float: left;
+      margin-top: 1.6rem;
+    }
+
+    input::-webkit-input-placeholder {
+      color: chartreuse;
+      font-size: @font-size1;
+    }
+
+  }
+
+}
+
+footer{
+
+  .footer-box-dl{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+
+    button{
+      width: 100%;
+      line-height: 5rem;
+      background-color: #5fc0cd;
+      color: white;
+      font-size: @font-size1;
+      text-align: center;
+      font-weight: 800;
+      border: 0;
+    }
+
+  }
+
+  .footer-wj{
+    float: right;
+    font-weight: 600;
+    font-size: @font-size1;
+    color: #5fc0cd;
+    margin-right: 2rem;
+  }
+
+
+}
